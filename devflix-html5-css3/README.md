@@ -2,3 +2,4 @@
 
 * Estructurar directorios
 * Maquetar index con HTML5
+* Agregar assets a la maqueta
