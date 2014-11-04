@@ -3,3 +3,4 @@
 * Estructurar directorios
 * Maquetar index con HTML5
 * Agregar assets a la maqueta
+* Agregar clases y referencia a estilos.css
