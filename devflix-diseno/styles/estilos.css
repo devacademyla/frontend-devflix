@@ -18,6 +18,7 @@ nav {
   display: inline-block;
   vertical-align: top;
 }
+nav i { margin-left: 2px; }
 nav ul li {
   display: inline-block;
   margin-right: 10px;

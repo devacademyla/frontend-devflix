@@ -2,3 +2,4 @@
 
 * Estructurar directorios
 * Agregar webfont de Google
+* Agregar Fontawesome
