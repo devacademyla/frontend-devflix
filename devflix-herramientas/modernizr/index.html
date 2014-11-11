@@ -12,6 +12,15 @@
 	<div id="caracteristica">
 		
 	</div>
+	<script>
+	 if(Modernizr.geolocation)
+	 		$('#caracteristica').append('Geolocation : Si');
+	 	else
+	 		$('#caracteristica').append('Geolocation : No');
 
+	 	$.each(Modernizr.inputtypes, function(input, value){
+		 		$('#caracteristica').append('<br />' + input + ' ' + value);
+	 	});
+	</script>
 </body>
 </html>
