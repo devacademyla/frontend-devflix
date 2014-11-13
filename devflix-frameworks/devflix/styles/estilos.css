@@ -27,6 +27,9 @@ nav ul li a {
 nav ul li a:hover {
   color: white;
 }
+.descripcion { display: none; }
+
+button { margin-top: 10px; }
 
 .series {
   overflow: hidden;

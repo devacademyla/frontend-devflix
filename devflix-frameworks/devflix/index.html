@@ -6,7 +6,13 @@
   <link rel="stylesheet" href="styles/bootstrap.css" />
   <link rel="stylesheet" href="styles/estilos.css" />
   <script src="js/jquery2.js"></script>
-  <script src="js/bootstrap.js"></script>
+  <script>
+    $(document).ready(function() {
+      $('button').click(function() {
+        $(this).siblings('.descripcion').slideToggle();
+      });
+    });
+  </script>
 </head>
 <body>
   <header>
@@ -23,74 +29,12 @@
   </header>
   <h2>Nuevos Lanzamientos</h2>
   <section class="series">
-    <article class="serie">
+    <article class="serie col-lg">
       <img src="images/bates-motel.jpg" alt="Bates Motel" />
-    </article>
-    <article class="serie">
-      <img src="images/breaking-bad.jpg" alt="Breaking Bad" />
-    </article>
-    <article class="serie">
-      <img src="images/gotham.jpg" alt="Gotham" />
-    </article>
-    <article class="serie">
-      <img src="images/house-of-cards.jpg" alt="House of Cards" />
-    </article>
-    <article class="serie">
-      <img src="images/silicon-valley.jpg" alt="Silicon Valley" />
-    </article>
-    <article class="serie">
-      <img src="images/skins.jpg" alt="Skins" />
-    </article>
-    <article class="serie">
-      <img src="images/smallville.jpg" alt="Smallville" />
-    </article>
-  </section>
-  <h2>Recientemente añadidos</h2>
-  <section class="series">
-    <article class="serie">
-      <img src="images/under-the-dome.jpg" alt="Under the Dome" />
-    </article>
-    <article class="serie">
-      <img src="images/bates-motel.jpg" alt="Bates Motel" />
-    </article>
-    <article class="serie">
-      <img src="images/breaking-bad.jpg" alt="Breaking Bad" />
-    </article>
-    <article class="serie">
-      <img src="images/gotham.jpg" alt="Gotham" />
-    </article>
-    <article class="serie">
-      <img src="images/house-of-cards.jpg" alt="House of Cards" />
-    </article>
-    <article class="serie">
-      <img src="images/silicon-valley.jpg" alt="Silicon Valley" />
-    </article>
-    <article class="serie">
-      <img src="images/skins.jpg" alt="Skins" />
-    </article>
-  </section>
-  <h2>Verlos otra vez</h2>
-  <section class="series">
-    <article class="serie">
-      <img src="images/bates-motel.jpg" alt="Bates Motel" />
-    </article>
-    <article class="serie">
-      <img src="images/breaking-bad.jpg" alt="Breaking Bad" />
-    </article>
-    <article class="serie">
-      <img src="images/gotham.jpg" alt="Gotham" />
-    </article>
-    <article class="serie">
-      <img src="images/house-of-cards.jpg" alt="House of Cards" />
-    </article>
-    <article class="serie">
-      <img src="images/silicon-valley.jpg" alt="Silicon Valley" />
-    </article>
-    <article class="serie">
-      <img src="images/skins.jpg" alt="Skins" />
-    </article>
-    <article class="serie">
-      <img src="images/smallville.jpg" alt="Smallville" />
+      <div class="descripcion">
+        Precuela de la famosa película de horror titulada psicosis.
+      </div>
+      <button class="btn btn-primary center-block">Ver Ahora</button>
     </article>
   </section>
 </body>
