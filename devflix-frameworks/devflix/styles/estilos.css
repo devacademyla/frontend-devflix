@@ -15,7 +15,6 @@ header .logo {
 
 nav {
   display: inline-block;
-  vertical-align: top;
 }
 nav ul li {
   display: inline-block;
