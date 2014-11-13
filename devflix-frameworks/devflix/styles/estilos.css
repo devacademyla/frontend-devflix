@@ -52,6 +52,25 @@ button { margin-top: 10px; }
   -webkit-transform: scale(1.2);
   -ms-transform: scale(1.2);
 }
+.color-drama {
+  background-color: red;
+}
+.color-terror {
+  background-color: black;
+}
+.color-accion {
+  background-color: #000066;
+}
+.color-suspenso {
+  background-color: #4C4C4C;
+}
+.color-comedia {
+  background-color: #33CC33;
+}
+.color-scify {
+  background-color: #CC00FF;
+}
+
 
 @media screen and (max-width: 600px){
   

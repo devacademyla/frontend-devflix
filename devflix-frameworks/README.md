@@ -5,3 +5,4 @@
 * Usar Bootstrap en devflix
 * Utilizar jquery
 * Agregar Angular.js
+* Usar ng-repeat y clases dinámicas
