@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es" ng-app="devflix">
 <head>
   <meta charset="UTF-8">
   <title>Devflix</title>
@@ -13,6 +13,8 @@
       });
     });
   </script>
+  <script src="js/angular.js"></script>
+  <script src="js/app.js"></script>
 </head>
 <body>
   <header>
@@ -28,13 +30,11 @@
     </nav>
   </header>
   <h2>Nuevos Lanzamientos</h2>
-  <section class="series">
+  <section class="series" ng-controller="seriesController as srsCtrl">
     <article class="serie col-lg">
-      <img src="images/bates-motel.jpg" alt="Bates Motel" />
-      <div class="descripcion">
-        Precuela de la famosa película de horror titulada psicosis.
-      </div>
-      <button class="btn btn-primary center-block">Ver Ahora</button>
+      <img src="images/{{srsCtrl.serie.slug}}.jpg" alt="{{srsCtrl.serie.titulo}}" />
+      <h3>{{srsCtrl.serie.titulo}}</h3>
+      <span>{{srsCtrl.serie.tipo.join(', ')}}</span>
     </article>
   </section>
 </body>
