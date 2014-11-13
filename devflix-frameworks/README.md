@@ -9,3 +9,4 @@
 * Usar ng-repeat con series
 * Agregar buscador
 * Sistema de Tabs
+* Refactor Sistema de Tabs
