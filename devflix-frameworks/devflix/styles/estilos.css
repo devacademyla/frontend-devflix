@@ -44,6 +44,7 @@ button { margin-top: 10px; }
   margin-right: 0;
 }
 .serie img {
+  margin-top: 10px;
   transition: 1s all ease;
   width: 100%;
 }
