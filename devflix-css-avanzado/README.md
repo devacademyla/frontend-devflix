@@ -2,3 +2,4 @@
 
 * Agregar devflix
 * Agregar animaciones
+* Agregar viewport y mediaqueries

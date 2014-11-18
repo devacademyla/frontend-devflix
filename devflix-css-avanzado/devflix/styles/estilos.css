@@ -71,3 +71,33 @@ nav ul li a:hover {
 .serie img {
   width: 100%;
 }
+
+@media screen and (max-width: 768px) {
+  .serie {
+    margin-right: 4%;
+    margin-bottom: 10px;
+    width: 22%;
+  }
+  .serie:nth-child(7n) {
+    margin-right: 4%;
+  }
+  .serie:nth-child(4n) {
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .serie {
+    margin-right: 5%;
+    width: 30%;
+  }
+  .serie:nth-child(7n) {
+    margin-right: 5%;
+  }
+  .serie:nth-child(4n) {
+    margin-right: 5%;
+  }
+  .serie:nth-child(3n) {
+    margin-right: 0;
+  }
+}
