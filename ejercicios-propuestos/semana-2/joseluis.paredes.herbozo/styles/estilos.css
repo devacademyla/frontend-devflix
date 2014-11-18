@@ -1,0 +1,128 @@
+html {
+   margin-left: 110px; margin-right: 100px; 
+}
+
+body {
+  font-size: 16px;
+  margin-top: 40px; 
+  max-width: 1080px;
+}
+
+header {
+  background-image: url(http://www.universalchannel.tv/images/menu/background-menu.png);
+  background-repeat: repeat-x;
+  font-weight: bold;
+  height: 55px;
+}
+
+nav {
+  display: inline-block;
+  vertical-align: top;
+}
+nav ul {
+  float : left;
+  width:  61em;
+}
+.redes-sociales {
+  float: right;
+  width: auto;
+  padding: 8px 0 0 0;
+}
+
+.facebook {
+  float: left;
+  width: 24px;
+  margin-right: 5px;
+}
+
+.twitter {
+  float: left;
+  width: 30px; 
+}
+
+.nombreserie {
+    font-family: impact;
+    color: #505050 ; 
+    padding: 8px 0 8px 0;
+
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+  font-family: Arial;
+}
+nav ul li a {
+  color: #d1d1d1;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  color: white;
+}
+
+.subtitulo {
+  background-image: url(http://www.universalchannel.tv/images/menu/background-menu.png);
+  background-repeat: repeat-x;
+  font-family: Arial;
+  font-weight: bold;
+  padding: 10px 0 0 40px;
+  color: #d1d1d1;
+  height: 35px;
+}
+.series {
+  overflow: hidden;
+  padding: 0 1em;
+}
+.serie {
+  float: left;
+  margin-right: 1.5%;
+  width: 30%;
+}
+.serie:nth-child(7n) {
+  margin-right: 0;
+}
+.serie img {
+  transition: 1s all ease;
+  width: 100%;
+}
+
+.pruebamodernizr {
+  background-image: url(http://www.universalchannel.tv/images/menu/background-menu.png);
+  background-repeat: repeat-x;
+  font-family: Arial;
+  font-weight: bold;
+  padding: 10px 0 0 40px;
+  color: #d1d1d1;
+  height: 35px;
+}
+
+.facebook:hover {
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+}
+
+.twitter:hover {
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+}
+
+.serie img:hover {
+  -webkit-transform: scale(1.1) rotate(4deg);
+  transform: scale(1.1) rotate(4deg);
+
+}
+
+@media screen and (max-width: 600px){
+  
+  nav { display: none; }
+
+  .serie {
+    width: 30%;
+    margin-right: 5%;
+  }
+  .serie:nth-child(3n){
+    margin-right: 0;
+  }
+}
