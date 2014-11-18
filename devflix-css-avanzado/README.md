@@ -3,3 +3,4 @@
 * Agregar devflix
 * Agregar animaciones
 * Agregar viewport y mediaqueries
+* Agregar responsive a nav

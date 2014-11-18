@@ -7,10 +7,19 @@
   <link rel="stylesheet" href="styles/estilos.css" />
   <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' />
   <script src="js/jquery2.js"></script>
+  <script>
+    $(document).ready(function() {
+      $('header span').click(function() {
+        $(this).siblings('nav').slideToggle();
+        console.log('asds');
+      });
+    });
+  </script>
 </head>
 <body>
   <header>
     <img class="logo" src="images/devflix-logo.png" alt="Devflix" />
+    <span>MENÚ</span>
     <nav>
       <ul>
         <li><a href="#">Ver ahora</a></li>

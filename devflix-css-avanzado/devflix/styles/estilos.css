@@ -41,6 +41,9 @@ nav {
   display: inline-block;
   vertical-align: top;
 }
+header span {
+  display: none;
+}
 nav ul li {
   display: inline-block;
   margin-right: 10px;
@@ -73,6 +76,28 @@ nav ul li a:hover {
 }
 
 @media screen and (max-width: 768px) {
+  header { height: auto; }
+  header span {
+    color: white;
+    cursor: pointer;
+    line-height: 55px;
+    margin-right: 2em;
+    display: block;
+    float: right;
+  }
+  nav {
+    background-color: #c02717;
+    display: none;
+    overflow: hidden;
+  }
+  nav ul {
+    text-align: right;
+    margin-top: 0;
+  }
+  nav ul li {
+    display: block;
+    margin-right: 2em;
+  }
   .serie {
     margin-right: 4%;
     margin-bottom: 10px;
