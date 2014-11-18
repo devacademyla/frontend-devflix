@@ -11,7 +11,30 @@ header {
 }
 header .logo {
   margin: 14px 2em;
+  transition: all .5s ease;
   width: 70px;
+}
+header .logo:hover {
+  animation-name: rotacion;
+  -webkit-animation-name: rotacion;
+  animation-duration: .5s;
+  -webkit-animation-duration: .5s;
+  animation-timing-function: linear;
+  -webkit-animation-timing-function: linear;
+}
+@-webkit-keyframes rotacion {
+  25% {
+    transform: scale(.5);
+    -webkit-transform: scale(.5);
+  }
+  50% {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+  }
+  75% {
+    transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+  }
 }
 
 nav {
@@ -25,9 +48,12 @@ nav ul li {
 nav ul li a {
   color: #d1d1d1;
   text-decoration: none;
+  transition: all 1s ease;
 }
 nav ul li a:hover {
   color: white;
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
 }
 
 .series {
