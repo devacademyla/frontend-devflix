@@ -1,7 +1,20 @@
-@media screen and (min-width: 640px) {
+// Neat Overrides
+// $column: 90px;
+// $gutter: 30px;
+// $grid-columns: 12;
+// $max-width: em(1088);
+
+// Neat Breakpoints
+$medio: em(640);
+$largo: em(860);
+
+$tablet: new-breakpoint(min-width $medio 6);
+$desktop: new-breakpoint(min-width $largo 7);
+
+@include media($desktop) {
   .serie {
-    @include span-columns(4);
+    @include span-columns(1);
     @include omega-reset(2n);
-    @include omega(3n);
+    @include omega(7n);
   }
 }
