@@ -7,3 +7,4 @@
 * Import
 * Usar Bourbon
 * Usar Neat
+* Responsive Design y grids con Neat
