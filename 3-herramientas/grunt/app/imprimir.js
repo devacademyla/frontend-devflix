@@ -1,1 +1,1 @@
-console.log("Ejemplo de uso de Grunt");
+console.log("Ejemplo de uso de Grunt, yeah! ");
