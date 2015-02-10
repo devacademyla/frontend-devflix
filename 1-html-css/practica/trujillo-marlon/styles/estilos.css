@@ -1,0 +1,91 @@
+body {
+  font-size: 16px;
+  margin: 0 auto;
+  max-width: 1080px;
+}
+
+header {
+  background-color: #6b097d;
+  height: 45px;
+}
+header .logo {
+  margin: 8px 5px;
+  width: 30px;
+  margin-right: 20px;
+
+}
+
+nav {
+  display: inline-block;
+  vertical-align: top;
+
+}
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+nav ul li a {
+  color: #22bab6;
+  text-decoration: none;
+  font-family: sans-serif
+}
+nav ul li a:hover {
+  color: white;
+}
+.sub {
+   font-family: sans-serif;
+   font-size: 15px;
+   text-align: center;
+   margin: 5px;
+}
+ .titulo {
+  font-family: sans-serif;
+   vertical-align: top;
+   background-color: #6b097d; 
+   padding: 0 2em;
+   margin: 0 auto;
+    max-width: 1080px;
+   margin-top: 5px;
+   margin-bottom: 5px;
+   font-size: 20px;
+   color: #ffffff;
+ }
+
+.redes {
+  float: right;
+  margin-left: 10%;  
+}
+.personajes {
+  overflow: hidden;
+  padding: 0 1em;
+}
+.personaje {
+  float: left;
+  margin-right: 1.5%;
+  width: 30%;
+}
+.personaje:nth-child(7n) {
+  margin-right: 0;
+}
+.personaje img {
+  transition: 1s all ease;
+  width: 100%;
+}
+.personaje img:hover {
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+}
+
+@media screen and (max-width: 600px){
+  
+  nav { display: none; }
+
+  .personaje {
+    width: 30%;
+    margin-right: 5%;
+  }
+  .personaje:nth-child(3n){
+    margin-right: 0;
+  }
+}
