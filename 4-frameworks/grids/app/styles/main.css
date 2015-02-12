@@ -1,0 +1,16 @@
+header {
+  background-color: #2D3D51;
+  color: white;
+}
+article:nth-child(2) {
+  background-color: #2D3D51;
+  color: white;
+}
+aside {
+  background-color: #c02717;
+  color: white;
+}
+footer {
+  background-color: #1abc9c;
+  color: white;
+}
