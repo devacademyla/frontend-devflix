@@ -1,0 +1,42 @@
+@import "bourbon/app/assets/stylesheets/bourbon";
+@import "neat/app/assets/stylesheets/neat";
+@import "omega-reset";
+
+$rojo: #c02717;
+
+body {
+  @include outer-container;
+  font-size: 16px;
+}
+header {
+  background-color: $rojo;
+  height: 55px;
+  .logo {
+    margin: 14px 2em;
+    width: 70px;
+  }
+}
+nav { display: none; }
+
+.series {
+  overflow: hidden;
+  padding: 0 1em;
+}
+.serie {
+  float: left;
+  @include span-columns(6);
+  @include omega(2n);
+  margin-bottom: 20px;
+  &:nth-child(2n) {
+    margin-right: 0;
+  }
+  img {
+    transition: 1s all ease;
+    width: 100%;
+    &:hover {
+      @include transform(scale(1.2));
+    }
+  }
+}
+
+@import "responsive";

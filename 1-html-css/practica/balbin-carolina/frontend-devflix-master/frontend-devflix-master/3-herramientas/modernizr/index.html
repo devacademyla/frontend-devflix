@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Modernizr</title>
+	<script src='jquery2.js'></script>
+	<script src='modernizr.js'></script>
+</head>
+<body>
+	<h1>Modernizr</h1>
+	<h2>Características:</h2>
+	<div id="caracteristica">
+		
+	</div>
+	<script>
+	 if(Modernizr.geolocation)
+	 		$('#caracteristica').append('Geolocation : Si');
+	 	else
+	 		$('#caracteristica').append('Geolocation : No');
+
+	 	$.each(Modernizr.inputtypes, function(input, value){
+		 		$('#caracteristica').append('<br />' + input + ' ' + value);
+	 	});
+	</script>
+</body>
+</html>

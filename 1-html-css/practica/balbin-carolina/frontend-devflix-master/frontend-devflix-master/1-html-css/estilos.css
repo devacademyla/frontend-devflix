@@ -1,0 +1,14 @@
+header h2 {
+  color: green;
+}
+header h2:hover {
+  color: #0000FF;
+}
+
+.rojo {
+  color: red;
+}
+
+#principal {
+  background-color: blue;
+}
