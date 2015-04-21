@@ -1,0 +1,98 @@
+body {
+  font-family: 'Arial narrow', sans-serif;
+  font-size: 16px;
+  margin: 0 auto;
+  max-width: 1030px;
+  font-weight: bold;
+
+}
+
+header {
+  background-color: #6B097D;
+  height: 52px;
+
+
+}
+
+
+h2 {
+   font-family: 'Arial narrow', sans-serif;
+   background-color: #6B097D;
+  color: white;
+   font-size: 16px;
+   height: 30px;
+   padding-left: 10px;
+   padding-top: 4px;
+   
+}
+
+nav {
+  display: inline-block;
+  vertical-align: top;
+
+}
+nav i { 
+text-align: right;}
+
+nav ul li {
+  margin-right: 20px;
+  display: inline-block;
+/*  margin-left: 10px;*/
+}
+
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+
+}
+
+nav ul li a:hover {
+  color: white;
+}
+
+.series {
+  overflow: hidden;
+  padding: 0 1em;
+}
+.serie {
+  float: left;
+  margin-right: 2.7%;
+  margin-bottom: 2.7%;
+  width: 28%;
+  height: 35%;
+}
+
+.serie:nth-child(7n) {
+  margin-right: 0;
+}
+.serie img {
+  width: 100%;
+}
+
+.logo {
+  float:right;
+}
+
+.texto-figura{
+  font-family: 'Arial narrow', sans-serif;
+  color: #404040;
+  font-size: 16px;
+  display: block;
+  text-align: center;
+}
+
+.iconos{
+  display:block;
+  text-align: right;
+  color: white;
+  margin-right: 10px;  
+  margin-top: -30px;
+     font-size: 22px;
+}
+
+.iconos i{
+  margin-left: 8px;
+  color: white;
+
+}
