@@ -1,0 +1,80 @@
+body  {
+  font-family: 'Oswald',sans-serif;
+  font-size: 16px; /*1em=16px*/
+  margin: 0 auto; /*se acomoda al medio de forma automática*/
+  max-width: 1080px; /*no genera scroll porque el max es 1080*/
+}
+
+body h2 {
+  font-family: 'Oswald',sans-serif;
+  background-color: #6b097d; /*cplor de fonodo*/
+  height: 40px;
+  line-height: 40px;
+  color: #d1d1d1;
+
+}
+header {
+   
+  background-color: #6b097d; /*cplor de fonodo*/
+  height: 55px;
+  border-bottom-style: solid;
+  border-bottom-width: 5px;
+  border-bottom-color:  #22bab6;
+}
+nav {
+  display: inline-block; /*para que el menu se ubica al lado del logo*/
+  vertical-align: top; /*para que no desacomode el logo*/
+}
+nav ul{
+  padding: 0;
+  margin:0;
+}
+nav ul li {
+  display: inline-block; /*para los elementos de la lista*/
+  margin-right: 10px; /*para espaciarlos*/
+  line-height: 55px; /*para centrarlos en el header, le pongo su misma altura*/
+}
+nav ul li a {
+  color: #d1d1d1;
+  text-decoration: none; /*quitar el subrayado*/
+}
+nav ul li a:hover {
+  color: white;
+}
+
+label {
+ COLOR:#404040;
+ vertical-align: middle;
+ display:block;
+ text-align: center;
+}
+
+.series {
+  overflow: hidden;
+  padding: 0 1em;
+  margin: 2em; /*para ubicarlos un poco mas adentro de la pag*/
+}
+.serie {
+  float: left;  
+   /* alternativa a display: inline-block; una al225 lado de la otra se va a pegar lo mas arriba y a la izquierda que puede*/
+   /*y los que no entran bajan por eso mejor darle porcentaje de ancho para que no bajen y ocupen 100%*/
+   margin-right: 5%;
+   margin-top: 3%;
+  width: 30%; 
+}
+.serie:nth-child(3n) {
+  margin-right: 0; /*LE QUITO EL MARGEN DERECHO A LA ULTIMA IMAGEN PARA QUE ALCANCE 100*/
+}
+.serie img {
+  transition: 1s all ease;
+  width: 100%; /*para que la imagen ocupe todo el espacio segun el article para que ocupe 100% del espacio*/
+}
+.serie img:hover {
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+}
+@media screen and (max-width: 500px){
+  
+  nav { display: none; }
+
