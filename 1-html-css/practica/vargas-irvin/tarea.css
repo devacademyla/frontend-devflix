@@ -1,0 +1,77 @@
+body {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 19px;
+  font-weight: 700;
+  margin: 0 auto;
+  max-width: 1080px;
+}
+
+.menu {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,rgba(168,3,168,1)), color-stop(53%,rgba(126,37,170,1)), color-stop(100%,rgba(40,52,59,1)));;
+  height: 60px;
+}
+.subMenu {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,rgba(168,3,168,1)), color-stop(53%,rgba(126,37,170,1)), color-stop(100%,rgba(40,52,59,1)));;
+  height: 30px;
+}
+nav {
+  display: inline-block;
+  vertical-align: middle;
+}
+nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+  line-height: 10px;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  color: #d1d1d1;
+}
+.subMenuPalabra {
+  margin-left: 40px;
+  margin-right: 10px;
+  line-height: 10px;
+}
+.subMenuPalabra a {
+  text-decoration: none;
+  color: white;
+}
+div {
+  display: inline-block;
+  vertical-align: top;
+  float: right;
+}
+.redsocial {
+  display: inline-block;
+  color: white;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.redsocial:hover {
+  color: #d1d1d1;
+}
+.series {
+  overflow: hidden;
+  padding: 0 1em;
+}
+.serie {
+  float: left;
+  margin-right: 1.5%;
+  margin-bottom: 35px;
+  width: 30%;
+}
+.serie:nth-child(7n) {
+  margin-right: 0;
+}
+.serie img {
+  width: 100%;
+}
+.serie label {
+  display: block;
+  text-align: center;
+  margin-top: 7px;
+}
